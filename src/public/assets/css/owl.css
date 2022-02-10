@@ -187,7 +187,7 @@
 
 
 
-#timer div {
+.timing div {
    background-color: #2DAFB5;
    color: #ffffff;
    width: 100px;
@@ -200,25 +200,55 @@
     margin-top: 20px;
     margin-bottom: 0px;
 }
-#timer div span {
+.timing div span {
    display: block;
    margin-top: -2px;
    font-size: 15px;
    font-weight: 500;
 }
 
-media only screen and (max-width: 767px) {
-   #timer {
+@media (max-width: 500px) {
+   .timing {
      margin-top: -20px;
    }
-   #timer div {
-     width: 95px;
-     height: 100px;
-     font-size: 32px;
+   .timing div {
+     width: 75px;
+     height: 70px;
+     font-size: 28px;
      margin-top: 50px;
   }
-#timer div span {
-    font-size: 14px;
+.timing div span {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 385px) {
+   .timing {
+     margin-top: -20px;
+   }
+   .timing div {
+     width:70px;
+     height: 65px;
+     font-size: 26px;
+     margin-top: 30px;
+  }
+.timing div span {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+   .timing {
+     margin-top: -20px;
+   }
+   .timing div {
+     width: 55px;
+     height: 55px;
+     font-size: 24px;
+     margin-top: 50px;
+  }
+.timing div span {
+    font-size: 10px;
   }
 }
 
@@ -230,12 +260,5 @@ media only screen and (max-width: 767px) {
     }
 
 }
-
-
-
-
-
-
-
 
 

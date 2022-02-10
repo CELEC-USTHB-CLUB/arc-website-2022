@@ -37,6 +37,10 @@
             <input value="{{ old('phone_2') }}" name="phone_2" type="text" placeholder="Ajoutez un 2éme numéro"/>
           </div>
           <div class="input-field">
+            <i class="fas fa-phone"></i>
+            <input value="{{ old('adress') }}" name="adress" type="text" placeholder="Vous êtes de quelle wilaya?"/>
+          </div>
+          <div class="input-field">
               <i class="fa fa-graduation-cap"></i>
               <input value="{{ old('Niveau_etude') }}" name="Niveau_etude" type="text" placeholder="Niveau d'étude et spécialité" />
             </div>

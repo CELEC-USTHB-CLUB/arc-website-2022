@@ -281,7 +281,7 @@ header
 */
 
 .background-header {
-  background-color: black !important;
+  background-color: #000009 !important;
   height: 80px!important;
   border-bottom: none !important;
   position: fixed!important;
@@ -648,6 +648,9 @@ header
 }
 
 @media (max-width: 992px) {
+    
+    .header-area {
+        background-color: #000009 !important;}
   .header-area .main-nav .nav li:last-child  ,
   .background-header .main-nav .nav li:last-child {
     color: #069;
@@ -853,11 +856,29 @@ Banner Style
 
 .main-banner .right-image img {
   max-width: 710px;
+    height:400px; 
+    padding-top: 10px;
 }
 
 .main-banner .left-content .white-button a {
   background-color: #2DAFB5;
   color: #fff !important;
+}
+
+@media (max-width: 500px){
+   .main-banner .right-image img {
+  max-width: 300px;
+    height:300px; 
+    padding-top: 10px;
+} 
+}
+
+@media (max-width: 385px){
+   .main-banner .right-image img {
+  max-width: 200px;
+    height:200px; 
+    padding-top: 10px;
+} 
 }
 
 /* 
@@ -1436,7 +1457,9 @@ responsive
 @media (min-width: 992px) {
   .test2 {
       display: none; }
-      
+    .registerphone{
+      display: none;  
+    }
   }
 
 @media (max-width: 1200px) {
@@ -1777,14 +1800,19 @@ slideshow
 .content-carrousel figure:nth-child(1) {
 	transform: rotateY(0deg) translateZ(300px); 
 } .content-carrousel figure:nth-child(2) {
-	transform: rotateY(90deg) translateZ(300px); 
+	transform: rotateY(60deg) translateZ(300px); 
 } .content-carrousel figure:nth-child(3) {
-	transform: rotateY(180deg) translateZ(300px); 
+	transform: rotateY(120deg) translateZ(300px); 
 } .content-carrousel figure:nth-child(4) {
-	transform: rotateY(270deg) translateZ(300px); 
+	transform: rotateY(180deg) translateZ(300px); 
 } .content-carrousel figure:nth-child(5) {
+	transform: rotateY(240deg) translateZ(300px); 
+}.content-carrousel figure:nth-child(6) {
+	transform: rotateY(300deg) translateZ(300px); 
+}.content-carrousel figure:nth-child(7) {
 	transform: rotateY(360deg) translateZ(300px); 
 }
+
 .shadow {
     position: absolute;
     box-shadow: 0px 0px 20px 0px #000;

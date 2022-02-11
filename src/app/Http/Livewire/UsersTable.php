@@ -23,13 +23,19 @@ class UsersTable extends DataTableComponent {
         return [
             Column::make('ID', "id")->sortable(),
             Column::make('leader_name')->searchable(),
+            Column::make('study', "study_level_1")->searchable(),
             Column::make('email')->searchable(),
+            Column::make('from')->sortable(),
             Column::make('wilaya')->sortable(),
             Column::make('member_2'),
+            Column::make('study', "study_level_2")->searchable(),
             Column::make('member_3'),
+            Column::make('study', "study_level_3")->searchable(),
             Column::make('member_4'),
+            Column::make('study', "study_level_4")->searchable(),
             Column::make('participations_number')->sortable(),
             Column::make('skills'),
+            Column::make('projects'),
             Column::make('created at'),
         ];
     }

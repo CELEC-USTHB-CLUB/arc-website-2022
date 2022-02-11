@@ -156,7 +156,10 @@ return [
             "required" => "Le numéro de téléphone est obligatoire"
         ],
         "wilaya"                =>      [
-            "requried" => "La wilaya est obligatoire"
+            "required" => "La wilaya est obligatoire"
+        ],
+        "from"                =>      [
+            "required" => "La wilaya est obligatoire"
         ],
         "member_2"              =>      [
             "required" => "Le nom du deuxième membre est requis"
@@ -167,7 +170,19 @@ return [
         "participations_number" =>      [
             "required" => "Le numéro de participation est obligatoire", 
             "integer" => "Le nombre de participations doit être de type numérique "
-        ]
+        ],
+        "project" =>      [
+            "required" => "Le champ projets est obligatoire", 
+        ],
+        "study_level_1" =>      [
+            "required" => "le niveau d'étude du membre 1 est requis", 
+        ],
+        "study_level_2" =>      [
+            "required" => "le niveau d'étude du membre 2 est requis", 
+        ],
+        "study_level_3" =>      [
+            "required" => "le niveau d'étude du membre 3 est requis", 
+        ],
     ],
 
     /*

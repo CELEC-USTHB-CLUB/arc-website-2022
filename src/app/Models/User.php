@@ -21,11 +21,17 @@ class User extends Authenticatable {
         'email',
         'phone',
         'wilaya',
+        "from",
+        "study_level_1",
         "member_2",
+        "study_level_2",
         "member_3",
+        "study_level_3",
         "member_4",
+        "study_level_4",
         "participations_number",
         "skills",
+        "projects"
     ];
     /**
      * The attributes that should be hidden for serialization.

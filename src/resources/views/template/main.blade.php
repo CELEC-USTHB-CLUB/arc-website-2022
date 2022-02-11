@@ -135,6 +135,7 @@ Le déploiement de l'IA dans les opérations de fabrication et de services garan
       </div>
     </div>
 </div>
+
     <div class="registerphone">
        <div class="the-clients" style="padding-top: 10px">
       
@@ -143,7 +144,7 @@ Le déploiement de l'IA dans les opérations de fabrication et de services garan
         <div class="col-lg-8 offset-lg-2">
           <div class="section-heading" style="margin-bottom: 0"> 
               <div class="gradient2-button wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-                <a href="sign.html" target="_blank" rel="noopener noreferrer"> <h5 style="text-decoration: underline">S'inscrire</h5></a>
+                <a href="{{url('signup')}}" target="_blank" rel="noopener noreferrer"> <h5 style="text-decoration: underline">S'inscrire</h5></a>
               </div>
             </div>  
 

@@ -545,7 +545,14 @@ select {
   }
 }
 
-@media (max-height: 700px) {
+
+ @media (max-height: 700px) {
+  .container {
+    min-height: 800px;
+    height: 165vh;
+    }}
+    
+    @media (max-height: 650px) {
   .container {
     min-height: 800px;
     height: 180vh;
@@ -559,7 +566,19 @@ select {
     
    
 
-@media (max-height: 500px) {
+@media (max-height: 550px) {
+  .container {
+    min-height: 800px;
+    height: 220vh;
+    }}
+    
+    @media (max-height: 500px) {
+  .container {
+    min-height: 800px;
+    height: 240vh;
+    }}
+    
+    @media (max-height: 450px) {
   .container {
     min-height: 800px;
     height: 250vh;

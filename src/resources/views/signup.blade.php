@@ -48,7 +48,7 @@
               <option disabled>Selectionnez la wilaya de participation</option>
               <option value="Alger">Alger</option>
               <option value="Skikda">Skikda</option>
-              <option value="Sidi Bel Abbes">Sidi Be Abbes</option>
+              <option value="Sidi Bel Abbes">Sidi Bel Abbes</option>
               <option value="Ghardaia">Ghardaia</option>
               <option value="Biskra">Biskra</option>
             </select>
@@ -110,7 +110,7 @@
         <p>
           Bienvenue ! à la plus grande compétition nationale, algérienne de la robotique <a href={{url("/")}}> "ALGERIAN ROBOT CUP" </a> &#9872; .
         </p>
-        <a href="https://drive.google.com/file/d/1ONOcOZnKGAeTlkVeXygcjO2UoRti8AzD/view?usp=sharing" >  
+        <a href="https://drive.google.com/file/d/1to5p_n3Glv87oZqetvdYIPOC4QCPpjrc/view?usp=sharing" >  
           <button class="lire transparent" type="button" style="width: 150px; font-size: 10px;">
             Lire les instructions 
           </button> </a>

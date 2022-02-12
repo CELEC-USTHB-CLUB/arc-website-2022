@@ -318,7 +318,7 @@ La première phase est les qualifications pour la finale, et elle aura lieu le 2
                
 <!--
           <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-            <h4><em>COMMUNITY PARTNER</em></h4>
+            <h4><em>COMMUNITY PARTNERS</em></h4>
             <img src="assets/images/Sans%20titre%20(2)%20(1).png" alt="">
 <section id="slideshow2">
 			<div class="entire-content2">
@@ -405,7 +405,7 @@ La première phase est les qualifications pour la finale, et elle aura lieu le 2
 
 				<div>
 					<i class="material-icons">&#xe0c8;</i>
-					<p><span>Labo n°13 Faculté Genie Electronique,</span>  USTHB, Bab Ezzouar,  Algérie</p>
+					<p><span>Labo n°13 Faculté Genie Electronique,</span>  USTHB, Bab Ezzouar, Alger</p>
 				</div>
 
 				<div>

@@ -516,7 +516,7 @@ select {
 }
 
 @media (max-width: 570px) {
-  .form {
+  form {
     padding: 0 1.5rem;
   }
     textarea {
@@ -545,7 +545,6 @@ select {
   }
 }
 
-
  @media (max-height: 700px) {
   .container {
     min-height: 800px;
@@ -563,8 +562,6 @@ select {
     min-height: 800px;
     height: 200vh;
     }}
-    
-   
 
 @media (max-height: 550px) {
   .container {
@@ -583,6 +580,12 @@ select {
     min-height: 800px;
     height: 250vh;
     }}
+    @media (max-height: 430px) {
+  .container {
+    min-height: 800px;
+    height: 270vh;
+    }}
+   
 
 @media (max-width: 420px) {
  
@@ -596,19 +599,36 @@ select {
  
     .input-field .changesize{   
   font-size: 11px;
+}   
 }
     
+     @media (max-height: 400px) {
+  .container {
+    min-height: 800px;
+    height: 300vh;
+    }}
+ @media (max-height: 370px) {
+  .container {
+    min-height: 800px;
+    height: 320vh;
+    }}
+    @media (max-height: 350px) {
+  .container {
+    min-height: 800px;
+    height: 350vh;
+    }}
+    @media (max-height: 320px) {
+  .container {
+    min-height: 800px;
+    height: 370vh;
+    }}
+    @media (max-height: 300px) {
+  .container {
+    min-height: 800px;
+    height: 400vh;
+    }}
     
-}
-@media (max-width: 340px) {
- 
-    .input-field .changesize{   
-  font-size: 10px;
-}    .input-field .changesize2{   
-  font-size: 13px;
-}
-      
-}
+
 
 @media (max-width: 450px) {
  
@@ -625,3 +645,58 @@ select {
 }
       
 }
+    @media (max-width: 340px) {
+ 
+    .input-field .changesize{   
+  font-size: 10px;
+}    .input-field .changesize2{   
+  font-size: 13px;
+}
+      
+}
+    @media (max-height: 280px) {
+  .container {
+    min-height: 800px;
+    height: 430vh;
+    }}
+    @media (max-height: 250px) {
+  .container {
+    min-height: 800px;
+    height: 470vh;
+    }}
+    @media (max-height: 230px) {
+  .container {
+    min-height: 800px;
+    height: 520vh;
+    }}
+    @media (max-height: 200px) {
+  .container {
+    min-height: 800px;
+    height: 570vh;
+    }}
+    @media (max-height: 210px) {
+  .container {
+    min-height: 800px;
+    height: 590vh;
+    }}
+    @media (max-height: 180px) {
+  .container {
+    min-height: 800px;
+    height: 690vh;
+    }}
+    @media (max-height: 150px) {
+  .container {
+    min-height: 800px;
+    height: 860vh;
+    }}
+    @media (max-height: 120px) {
+  .container {
+    min-height: 800px;
+    height: 930vh;
+    }}
+    @media (max-height: 100px) {
+  .container {
+    min-height: 800px;
+    height: 1100vh;
+    }}
+

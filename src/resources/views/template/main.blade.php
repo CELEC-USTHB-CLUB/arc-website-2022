@@ -304,44 +304,42 @@ La première phase est les qualifications pour la finale, et elle aura lieu le 2
 <section id="slideshow1" style="margin-bottom: 70px;">
 			<div class="entire-content1">
 				<div class="content-carrousel1">
+					<figure class="shadow1"></figure>
 					<figure class="shadow1"><img src="assets/images/Sans%20titre%20(13).png"></figure>
+					<figure class="shadow1"></figure>
 					<figure class="shadow1"><img src="assets/images/ARC%20logo_1background.png"></figure>
+					<figure class="shadow1"></figure>
 					<figure class="shadow1"><img src="assets/images/ARC%20logo_1background.png"></figure>
+					<figure class="shadow1"></figure>
 					<figure class="shadow1"><img src="assets/images/ARC%20logo_1background.png"></figure>
-					<figure class="shadow1"><img src="assets/images/ARC%20logo_1background.png"></figure>
-					<figure class="shadow1"><img src="assets/images/ARC%20logo_1background.png"></figure>
-					<figure class="shadow1"><img src="assets/images/ARC%20logo_1background.png"></figure>
-					<figure class="shadow1"><img src="assets/images/ARC%20logo_1background.png"></figure>
-					<figure class="shadow1"><img src="assets/images/ARC%20logo_1background.png"></figure>
+					<figure class="shadow1"></figure>
 		</div>
 	</div>
 </section>
                
-<!--
           <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-            <h4><em>COMMUNITY PARTNERS</em></h4>
+            <h4><em>COMMUNITY PARTNER</em></h4>
             <img src="assets/images/Sans%20titre%20(2)%20(1).png" alt="">
 <section id="slideshow2">
 			<div class="entire-content2">
 				<div class="content-carrousel2">
-					<figure class="shadow2"><img src="assets/images/LOGO%20ETIC.png"></figure>
-					<figure class="shadow2"><img src="assets/images/Dz%20inventors.png"></figure>
-					<figure class="shadow2"><img src="assets/images/White%20logo.png"></figure>
-					<figure class="shadow2"><img src="assets/images/Club%20logo-1"></figure>
-					<figure class="shadow2"><img src="assets/images/general-useArtboard%202%20copy.png"></figure>
-					<figure class="shadow2"><img src="assets/images/Logo%20Club%20OZONE.png"></figure>
-					<figure class="shadow2"><img src="assets/images/Logo_-_MC_1-01%20(3).svg"></figure>
-					<figure class="shadow2"><img src="assets/images/logo_cscc.png"></figure>
-					<figure class="shadow2"><img src="assets/images/logo1.png"></figure>
-                    <figure class="shadow2"><img src="assets/images/logo.png"></figure>
-					<figure class="shadow2"><img src="assets/images/ARC%20logo_1background.png"></figure>
-					<figure class="shadow2"><img src="assets/images/ARC%20logo_1background.png"></figure>
-                    <figure class="shadow2"><img src="assets/images/ARC%20logo_1background.png"></figure>
+					<figure class="shadow2"><img src="assets/images/ETIC.png"></figure>
+					<figure class="shadow2"><img src="assets/images/DZ.png"></figure>
+					<figure class="shadow2"><img src="assets/images/ENSTEIN.png"></figure>
+					<figure class="shadow2"><img src="assets/images/ENGLISH.png"></figure>
+					<figure class="shadow2"><img src="assets/images/MC.png"></figure>
+					<figure class="shadow2"><img src="assets/images/meca.png"></figure>
+					<figure class="shadow2"><img src="assets/images/CSCC.png"></figure>
+					<figure class="shadow2"><img src="assets/images/FUTURe.png"></figure>
+					<figure class="shadow2"><img src="assets/images/gdg.png"></figure>
+                    <figure class="shadow2"><img src="assets/images/genius.png"></figure>
+					<figure class="shadow2"><img src="assets/images/autotech.png"></figure>
+					<figure class="shadow2"><img src="assets/images/OZONE.png"></figure>
+                    <figure class="shadow2"><img src="assets/images/CSI.png"></figure>
 		</div>
 	</div>
 </section>
-          </div>               
--->
+          </div> 
           </div>
                 </div>
             </div>

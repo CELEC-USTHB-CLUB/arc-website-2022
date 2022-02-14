@@ -601,37 +601,7 @@ select {
     height: 280vh;
     }}
     
-       @media (max-height: 400px) {
-  .container {
-    min-height: 800px;
-    height: 320vh;
-    }}
- @media (max-height: 350px) {
-  .container {
-    min-height: 800px;
-    height: 370vh;
-    }}
-    @media (max-height: 300px) {
-  .container {
-    min-height: 800px;
-    height: 430vh;
-    }}
-   
-      @media (max-height: 250px) {
-  .container {
-    min-height: 800px;
-    height: 550vh;
-    }}
-    @media (max-height: 200px) {
-  .container {
-    min-height: 800px;
-    height: 700vh;
-    }}
-    @media (max-height: 150px) {
-  .container {
-    min-height: 800px;
-    height: 850vh;
-    }}
+ 
 
 @media (max-width: 420px) {
  

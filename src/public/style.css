@@ -567,6 +567,19 @@ select {
     bottom: 28%;
     left: 50%;
   }
+    
+    .btn {
+        width: 100px;
+    }
+    
+    .btn.transparent{
+        width: 100px;
+    }
+    
+    .lire.transparent{
+        width: 100px;
+        font-size: 0.5rem;
+    }
 }
 
 
@@ -579,45 +592,45 @@ select {
     @media (max-height: 500px) {
   .container {
     min-height: 800px;
-    height: 240vh;
+    height: 250vh;
     }}
     
     @media (max-height: 450px) {
   .container {
     min-height: 800px;
-    height: 250vh;
+    height: 280vh;
     }}
     
        @media (max-height: 400px) {
   .container {
     min-height: 800px;
-    height: 300vh;
+    height: 320vh;
     }}
  @media (max-height: 350px) {
   .container {
     min-height: 800px;
-    height: 350vh;
+    height: 370vh;
     }}
     @media (max-height: 300px) {
   .container {
     min-height: 800px;
-    height: 400vh;
+    height: 430vh;
     }}
    
       @media (max-height: 250px) {
   .container {
     min-height: 800px;
-    height: 460vh;
+    height: 550vh;
     }}
     @media (max-height: 200px) {
   .container {
     min-height: 800px;
-    height: 560vh;
+    height: 700vh;
     }}
     @media (max-height: 150px) {
   .container {
     min-height: 800px;
-    height: 750vh;
+    height: 850vh;
     }}
 
 @media (max-width: 420px) {
@@ -660,7 +673,6 @@ select {
   font-size: 10px;
 }    .input-field .changesize2{   
   font-size: 13px;
-}     
+}    
 }
-  
 

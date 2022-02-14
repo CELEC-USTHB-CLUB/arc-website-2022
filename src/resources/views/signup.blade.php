@@ -111,7 +111,7 @@
           Bienvenue ! à la plus grande compétition nationale, algérienne de la robotique <a href={{url("/")}}> "ALGERIAN ROBOT CUP" </a> &#9872; .
         </p>
         <a href="https://drive.google.com/file/d/1to5p_n3Glv87oZqetvdYIPOC4QCPpjrc/view?usp=sharing" >  
-          <button class="lire transparent" type="button" style="width: 140px; font-size: 10px;">
+          <button class="lire transparent" type="button" style="width: 140px; font-size: 10px;  height: 23px">
             Lire les instructions 
           </button> </a>
 

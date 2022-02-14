@@ -369,6 +369,7 @@ select {
   pointer-events: all;
 }
 
+
 @media (max-width: 1065px) {
  
    select{   
@@ -395,12 +396,14 @@ select {
     
 }
 
+
 @media (max-width: 870px) {
   .container {
     min-height: 800px;
     height: 150vh;
   }
-    .input-field .changesize{   
+    
+       .input-field .changesize{   
   font-size: 13px;
 }
     
@@ -411,7 +414,7 @@ select {
     
   .signin-signup {
     width: 100%;
-    top: 95%;
+    top: 90%;
     transform: translate(-50%, -100%);
     transition: 1s 0.8s ease-in-out;
   }
@@ -425,6 +428,7 @@ select {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr 1fr;
   }
+    
     .panels-container {
         height: 100%;
     }
@@ -471,6 +475,7 @@ select {
     height: 35px;
     font-size: 0.7rem;
   }
+    
     .lire.transparent {
     width: 110px;
     height: 35px;
@@ -514,6 +519,25 @@ select {
     transform: translate(-50%, 0);
   }
 }
+    
+ @media (max-height: 700px) {
+  .container {
+    min-height: 800px;
+    height: 165vh;
+    }}
+    
+    @media (max-height: 650px) {
+  .container {
+    min-height: 800px;
+    height: 180vh;
+    }}    
+    
+@media (max-height: 600px) {
+  .container {
+    min-height: 800px;
+    height: 200vh;
+    }}
+
 
 @media (max-width: 570px) {
   form {
@@ -545,23 +569,6 @@ select {
   }
 }
 
- @media (max-height: 700px) {
-  .container {
-    min-height: 800px;
-    height: 165vh;
-    }}
-    
-    @media (max-height: 650px) {
-  .container {
-    min-height: 800px;
-    height: 180vh;
-    }}    
-    
-@media (max-height: 600px) {
-  .container {
-    min-height: 800px;
-    height: 200vh;
-    }}
 
 @media (max-height: 550px) {
   .container {
@@ -580,12 +587,38 @@ select {
     min-height: 800px;
     height: 250vh;
     }}
-    @media (max-height: 430px) {
+    
+       @media (max-height: 400px) {
   .container {
     min-height: 800px;
-    height: 270vh;
+    height: 300vh;
+    }}
+ @media (max-height: 350px) {
+  .container {
+    min-height: 800px;
+    height: 350vh;
+    }}
+    @media (max-height: 300px) {
+  .container {
+    min-height: 800px;
+    height: 400vh;
     }}
    
+      @media (max-height: 250px) {
+  .container {
+    min-height: 800px;
+    height: 460vh;
+    }}
+    @media (max-height: 200px) {
+  .container {
+    min-height: 800px;
+    height: 560vh;
+    }}
+    @media (max-height: 150px) {
+  .container {
+    min-height: 800px;
+    height: 750vh;
+    }}
 
 @media (max-width: 420px) {
  
@@ -602,31 +635,7 @@ select {
 }   
 }
     
-     @media (max-height: 400px) {
-  .container {
-    min-height: 800px;
-    height: 300vh;
-    }}
- @media (max-height: 370px) {
-  .container {
-    min-height: 800px;
-    height: 320vh;
-    }}
-    @media (max-height: 350px) {
-  .container {
-    min-height: 800px;
-    height: 350vh;
-    }}
-    @media (max-height: 320px) {
-  .container {
-    min-height: 800px;
-    height: 370vh;
-    }}
-    @media (max-height: 300px) {
-  .container {
-    min-height: 800px;
-    height: 400vh;
-    }}
+  
     
 
 
@@ -651,52 +660,7 @@ select {
   font-size: 10px;
 }    .input-field .changesize2{   
   font-size: 13px;
+}     
 }
-      
-}
-    @media (max-height: 280px) {
-  .container {
-    min-height: 800px;
-    height: 430vh;
-    }}
-    @media (max-height: 250px) {
-  .container {
-    min-height: 800px;
-    height: 470vh;
-    }}
-    @media (max-height: 230px) {
-  .container {
-    min-height: 800px;
-    height: 520vh;
-    }}
-    @media (max-height: 200px) {
-  .container {
-    min-height: 800px;
-    height: 570vh;
-    }}
-    @media (max-height: 210px) {
-  .container {
-    min-height: 800px;
-    height: 590vh;
-    }}
-    @media (max-height: 180px) {
-  .container {
-    min-height: 800px;
-    height: 690vh;
-    }}
-    @media (max-height: 150px) {
-  .container {
-    min-height: 800px;
-    height: 860vh;
-    }}
-    @media (max-height: 120px) {
-  .container {
-    min-height: 800px;
-    height: 930vh;
-    }}
-    @media (max-height: 100px) {
-  .container {
-    min-height: 800px;
-    height: 1100vh;
-    }}
+  
 

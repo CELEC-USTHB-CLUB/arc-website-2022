@@ -57,7 +57,7 @@
             >
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
+            <a href="{{url('/')}}" class="logo">
               <img src="assets/images/ARC%20logo_1background.png" alt="Chain App Dev" style="height: 72px; width: 80px">
             </a>
             <!-- ***** Logo End ***** -->

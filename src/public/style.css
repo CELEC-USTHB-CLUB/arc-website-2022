@@ -523,19 +523,19 @@ select {
  @media (max-height: 700px) {
   .container {
     min-height: 800px;
-    height: 165vh;
+    height: 18vh;
     }}
     
     @media (max-height: 650px) {
   .container {
     min-height: 800px;
-    height: 180vh;
+    height: 200vh;
     }}    
     
 @media (max-height: 600px) {
   .container {
     min-height: 800px;
-    height: 200vh;
+    height: 230vh;
     }}
 
 
@@ -586,22 +586,26 @@ select {
 @media (max-height: 550px) {
   .container {
     min-height: 800px;
-    height: 220vh;
+    height: 240vh;
     }}
     
     @media (max-height: 500px) {
   .container {
     min-height: 800px;
-    height: 250vh;
+    height: 260vh;
     }}
     
     @media (max-height: 450px) {
   .container {
     min-height: 800px;
-    height: 280vh;
+    height: 290vh;
     }}
     
+@media (max-width: 450px) {
  
+   select{   
+  font-size: 15px;
+    }} 
 
 @media (max-width: 420px) {
  
@@ -618,17 +622,11 @@ select {
 }   
 }
     
-  
-    
-
-
-@media (max-width: 450px) {
- 
-   select{   
-  font-size: 15px;
-}
-      
-}
+   @media (max-height: 400px) {
+  .container {
+    min-height: 800px;
+    height: 340vh;
+    }}
 
 @media (max-width: 360px) {
  
@@ -637,6 +635,12 @@ select {
 }
       
 }
+     @media (max-height: 350px) {
+  .container {
+    min-height: 800px;
+    height: 390vh;
+    }}
+    
     @media (max-width: 340px) {
  
     .input-field .changesize{   
@@ -645,4 +649,15 @@ select {
   font-size: 13px;
 }    
 }
+    
+ @media (max-height: 300px) {
+  .container {
+    min-height: 800px;
+    height: 450vh;
+    }}
 
+ @media (max-height: 250px) {
+  .container {
+    min-height: 800px;
+    height: 520vh;
+    }}

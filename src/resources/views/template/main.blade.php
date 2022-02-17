@@ -67,6 +67,7 @@
               <li class="scroll-to-section"><a href="#objectif">Objectif</a></li>
               <li class="scroll-to-section"><a href="#about">A propos</a></li>
               <li class="scroll-to-section"><a href="#partner">Partners</a></li>
+              <li class="scroll-to-section"><a href="https://drive.google.com/drive/folders/1Dryd4IVLtfNXz7_9PCcgBl70nabTq7br">Work-Book</a></li>
               
               <li><div class="gradient-button"><a href="{{url('signup')}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-sign-in-alt"></i> S'inscrire</a></div></li> 
             </ul>        

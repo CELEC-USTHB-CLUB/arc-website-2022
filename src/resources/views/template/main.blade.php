@@ -101,7 +101,7 @@
             </div>
             <div class="col-lg-6">
               <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="assets/images/ARC_logo_1background.svg" alt="">
+                <img src="assets/images/ARC%20logo_1background.png" alt="">
               </div>
             </div>
           </div>

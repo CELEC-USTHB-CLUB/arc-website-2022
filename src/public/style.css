@@ -519,6 +519,11 @@ select {
     transform: translate(-50%, 0);
   }
 }
+ @media (max-height: 750px) {
+  .container {
+    min-height: 800px;
+    height: 150vh;
+    }}
     
  @media (max-height: 700px) {
   .container {

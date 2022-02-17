@@ -190,7 +190,7 @@ La première phase est les qualifications pour la finale, et elle aura lieu le 2
         </div>
         <div class="col-lg-6">
           <div class="right-image wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-            <img src="img/Alger%20(2).png" alt="">
+            <img src="assets/images/Alger.png" alt="">
           </div>
         </div>
       </div>

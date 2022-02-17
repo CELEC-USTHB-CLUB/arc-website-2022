@@ -523,19 +523,19 @@ select {
  @media (max-height: 700px) {
   .container {
     min-height: 800px;
-    height: 18vh;
+    height: 170vh;
     }}
     
     @media (max-height: 650px) {
   .container {
     min-height: 800px;
-    height: 200vh;
+    height: 190vh;
     }}    
     
 @media (max-height: 600px) {
   .container {
     min-height: 800px;
-    height: 230vh;
+    height: 210vh;
     }}
 
 

@@ -583,6 +583,23 @@ select {
 }
 
 
+@media (max-height: 550px) {
+  .container {
+    min-height: 800px;
+    height: 220vh;
+    }}
+    
+    @media (max-height: 500px) {
+  .container {
+    min-height: 800px;
+    height: 250vh;
+    }}
+    
+    @media (max-height: 450px) {
+  .container {
+    min-height: 800px;
+    height: 280vh;
+    }}
     
  
 

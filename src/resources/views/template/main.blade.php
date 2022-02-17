@@ -282,11 +282,11 @@ La première phase est les qualifications pour la finale, et elle aura lieu le 2
 <section id="slideshow">
 			<div class="entire-content">
 				<div class="content-carrousel">
-					<figure class="shadow"><img src="assets/images/cast.png"></figure>
+					<figure class="shadow"><img src="assets/images/cst%20xlub.png"></figure>
 					
-					<figure class="shadow"><img src="assets/images/LOGO%20BLANC.png"></figure><figure class="shadow"><img src="assets/images/biskra.png"></figure>
-					<figure class="shadow"><img src="assets/images/logo%20de%20petroleum%20club%20skikda%20.png"></figure>
-                    <figure class="shadow"><img src="assets/images/DETS_white.svg"></figure>
+					<figure class="shadow"><img src="assets/images/auto.png"></figure><figure class="shadow"><img src="assets/images/biskra.png"></figure>
+					<figure class="shadow"><img src="assets/images/petrol.png"></figure>
+                    <figure class="shadow"><img src="assets/images/dets.png"></figure>
                     <figure class="shadow"><img src="assets/images/Sans%20titre%20(9).png"></figure>
 					
 		</div>

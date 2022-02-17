@@ -540,7 +540,7 @@ select {
 
 
 @media (max-width: 570px) {
-  form {
+  .form {
     padding: 0 1.5rem;
   }
     textarea {

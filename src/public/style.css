@@ -586,19 +586,19 @@ select {
 @media (max-height: 550px) {
   .container {
     min-height: 800px;
-    height: 240vh;
+    height: 230vh;
     }}
     
     @media (max-height: 500px) {
   .container {
     min-height: 800px;
-    height: 260vh;
+    height: 250vh;
     }}
     
     @media (max-height: 450px) {
   .container {
     min-height: 800px;
-    height: 290vh;
+    height: 280vh;
     }}
     
 @media (max-width: 450px) {
@@ -625,7 +625,7 @@ select {
    @media (max-height: 400px) {
   .container {
     min-height: 800px;
-    height: 340vh;
+    height: 310vh;
     }}
 
 @media (max-width: 360px) {
@@ -638,7 +638,7 @@ select {
      @media (max-height: 350px) {
   .container {
     min-height: 800px;
-    height: 390vh;
+    height: 370vh;
     }}
     
     @media (max-width: 340px) {
@@ -653,11 +653,11 @@ select {
  @media (max-height: 300px) {
   .container {
     min-height: 800px;
-    height: 450vh;
+    height: 430vh;
     }}
 
  @media (max-height: 250px) {
   .container {
     min-height: 800px;
-    height: 520vh;
+    height: 500vh;
     }}

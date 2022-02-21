@@ -54,4 +54,9 @@ class UserController extends Controller {
         return redirect()->back();
     }
 
+    public function delete(Request $request) {
+        User::findOrFail($request->id)->delete();
+        return redirect()->back();
+    }
+
 }

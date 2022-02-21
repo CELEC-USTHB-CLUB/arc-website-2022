@@ -93,6 +93,7 @@
         @include('livewire-tables::bootstrap-5.includes.bulk-select-row')
 
         @forelse ($rows as $index => $row)
+            <form method="POST" id="{{$index}}-delete" action="{{ url('admin/deleteUser') }}"> @csrf <input type="hidden" name="id" value="{{ $row->id }}"> </form>
             <form id="{{$index}}" method="POST" action="{{ url('admin/updateUser') }}">
                 @csrf
                 <x-livewire-tables::bs5.table.row
@@ -132,6 +133,9 @@
                     <x-livewire-tables::bs5.table.cell class="align-middle">
                         <button class="btn btn-warning" x-on:click.prevent="modify = true" x-show="modify == false">Modify</button>
                         <button form="{{$index}}" class="btn btn-success" type="submit" x-show="modify == true">Update</button>
+                        <br/>
+                        <br/>
+                        <button form="{{$index}}-delete" class="btn btn-danger" type="submit">Delete</button>
                     </x-livewire-tables::bs5.table.cell>
                 </x-livewire-tables::bs5.table.row>
             </form>

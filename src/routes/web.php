@@ -15,4 +15,5 @@ Route::GROUP(["prefix" => "admin"], function() {
     Route::POST("login", [AdminController::class, "auth"]);
     Route::GET("dashboard", fn() => view("adminpanel"))->middleware("auth");
     Route::POST("updateUser", [UserController::class, "update"])->middleware("auth");
+    Route::POST("deleteUser", [UserController::class, "delete"])->middleware("auth");
 });

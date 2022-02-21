@@ -13,5 +13,6 @@ Route::POST('signup', [UserController::class, "create"]);
 Route::GROUP(["prefix" => "admin"], function() {
     Route::GET("login", fn() => view("adminlogin"));
     Route::POST("login", [AdminController::class, "auth"]);
-    Route::GET("dashboard", fn() => view("adminpanel"));
+    Route::GET("dashboard", fn() => view("adminpanel"))->middleware("auth");
+    Route::POST("updateUser", [UserController::class, "update"])->middleware("auth");
 });

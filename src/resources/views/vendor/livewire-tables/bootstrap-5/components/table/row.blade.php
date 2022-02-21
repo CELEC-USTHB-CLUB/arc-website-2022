@@ -8,7 +8,7 @@
 
 <tr
     {{ $attributes->merge($customAttributes) }}
-
+    x-data="{modify: false}"
     @if ($url)
         onclick="window.open('{{ $url }}', '{{ $target }}')"
         style="cursor:pointer"

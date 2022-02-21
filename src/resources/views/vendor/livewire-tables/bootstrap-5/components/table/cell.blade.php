@@ -1,5 +1,5 @@
 @props(['customAttributes' => []])
 
 <td {{ $attributes->merge($customAttributes) }}>
-    {{ $slot }}
+    {{ $slot }} 
 </td>

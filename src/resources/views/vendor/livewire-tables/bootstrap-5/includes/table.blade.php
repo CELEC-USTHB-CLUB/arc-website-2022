@@ -67,6 +67,7 @@
                                 :id="method_exists($this, 'setSecondaryHeaderDataId') ? $this->setSecondaryHeaderDataId($column, $rows) : ''"
                                 :customAttributes="method_exists($this, 'setSecondaryHeaderDataAttributes') ? $this->setSecondaryHeaderDataAttributes($column, $rows) : []"
                             >
+                        hi
                                 @if ($column->isHtml())
                                     {{ new \Illuminate\Support\HtmlString($column->secondaryHeaderFormatted($rows)) }}
                                 @else
@@ -92,41 +93,47 @@
         @include('livewire-tables::bootstrap-5.includes.bulk-select-row')
 
         @forelse ($rows as $index => $row)
-            <x-livewire-tables::bs5.table.row
-                wire:loading.class.delay="text-muted"
-                wire:key="table-row-{{ md5(mt_rand()) }}-{{ $row->{$this->parseField($primaryKey)} }}"
-                wire:sortable.item="{{ $row->{$primaryKey} }}"
-                :reordering="$reordering"
-                :url="method_exists($this, 'getTableRowUrl') ? $this->getTableRowUrl($row) : ''"
-                :target="method_exists($this, 'getTableRowUrlTarget') ? $this->getTableRowUrlTarget($row) : '_self'"
-                :wireclick="method_exists($this, 'getTableRowWireClick') ? $this->getTableRowWireClick($row) : ''"
-                :class="method_exists($this, 'setTableRowClass') ? ' ' . $this->setTableRowClass($row) : ''"
-                :id="method_exists($this, 'setTableRowId') ? $this->setTableRowId($row) : ''"
-                :customAttributes="method_exists($this, 'setTableRowAttributes') ? $this->setTableRowAttributes($row) : []"
-            >
-                @if ($reordering)
-                    <x-livewire-tables::bs5.table.cell wire:sortable.handle>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="d-inline" style="width:1em;height:1em;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    </x-livewire-tables::bs5.table.cell>
-                @endif
+            <form method="POST" action="{{ url('admin/updateUser') }}">
+                @csrf
+                <x-livewire-tables::bs5.table.row
+                    wire:loading.class.delay="text-muted"
+                    wire:key="table-row-{{ md5(mt_rand()) }}-{{ $row->{$this->parseField($primaryKey)} }}"
+                    wire:sortable.item="{{ $row->{$primaryKey} }}"
+                    :reordering="$reordering"
+                    :url="method_exists($this, 'getTableRowUrl') ? $this->getTableRowUrl($row) : ''"
+                    :target="method_exists($this, 'getTableRowUrlTarget') ? $this->getTableRowUrlTarget($row) : '_self'"
+                    :wireclick="method_exists($this, 'getTableRowWireClick') ? $this->getTableRowWireClick($row) : ''"
+                    :class="method_exists($this, 'setTableRowClass') ? ' ' . $this->setTableRowClass($row) : ''"
+                    :id="method_exists($this, 'setTableRowId') ? $this->setTableRowId($row) : ''"
+                    :customAttributes="method_exists($this, 'setTableRowAttributes') ? $this->setTableRowAttributes($row) : []"
+                    
+                >
+                    @if ($reordering)
+                        <x-livewire-tables::bs5.table.cell wire:sortable.handle>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="d-inline" style="width:1em;height:1em;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </x-livewire-tables::bs5.table.cell>
+                    @endif
 
-                @if ($bulkActionsEnabled && count($this->bulkActions))
+                    @if ($bulkActionsEnabled && count($this->bulkActions))
+                        <x-livewire-tables::bs5.table.cell class="align-middle">
+                            <input
+                                wire:model="selected"
+                                wire:loading.attr.delay="disabled"
+                                value="{{ $row->{$this->parseField($primaryKey)} }}"
+                                onclick="event.stopPropagation();return true;"
+                                class="form-check-input"
+                                type="checkbox"
+                            />
+                        </x-livewire-tables::bs5.table.cell>
+                    @endif
+                    @include($rowView, ['row' => $row])
                     <x-livewire-tables::bs5.table.cell class="align-middle">
-                        <input
-                            wire:model="selected"
-                            wire:loading.attr.delay="disabled"
-                            value="{{ $row->{$this->parseField($primaryKey)} }}"
-                            onclick="event.stopPropagation();return true;"
-                            class="form-check-input"
-                            type="checkbox"
-                        />
+                        <button class="btn btn-warning" x-on:click.prevent="modify = true" x-show="modify == false">Modify</button>
+                        <button class="btn btn-success" type="submit" x-show="modify == true">Update</button>
                     </x-livewire-tables::bs5.table.cell>
-                @endif
-
-                @include($rowView, ['row' => $row])
-            </x-livewire-tables::bs5.table.row>
+                </x-livewire-tables::bs5.table.row>
         @empty
             <x-livewire-tables::bs5.table.row>
                 <x-livewire-tables::bs5.table.cell :colspan="$colspan">
@@ -155,7 +162,6 @@
                 @foreach($columns as $column)
                     @if ($column->isVisible())
                         @continue($columnSelect && ! $this->isColumnSelectEnabled($column))
-
                         @if ($column->hasFooter())
                             <x-livewire-tables::bs5.table.footer
                                 :class="method_exists($this, 'setFooterDataClass') ? $this->setFooterDataClass($column, $rows) : ''"

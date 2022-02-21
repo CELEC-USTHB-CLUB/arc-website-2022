@@ -49,4 +49,9 @@ class UserController extends Controller {
         return back()->withSuccess('Merci, votre inscription à été effectuée avec succès, un e-mail de confirmation vous sera bientôt envoyé.');
     }
 
+    public function update(Request $request) {
+        User::findOrFail($request->id)->update($request->except("id", "created_at"));
+        return redirect()->back();
+    }
+
 }
